@@ -1,0 +1,290 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "fifa galaxy",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "FifaFactsIntent",
+          "slots": [
+            {
+              "name": "player",
+              "type": "playerName"
+            },
+            {
+              "name": "team",
+              "type": "teamName"
+            },
+            {
+              "name": "league",
+              "type": "leagueName"
+            }
+          ],
+          "samples": [
+            "tell me something I don't know about {league}",
+            "tell me an interesting fact about {league}",
+            "give me an interesting fact about {league}",
+            "tell me about {league}",
+            "tell me something about {league}",
+            "{league}",
+            "tell me something I don't know about {team}",
+            "tell me an interesting fact about {team}",
+            "give me an interesting fact about {team}",
+            "tell me about {team}",
+            "tell me something about {team}",
+            "tell me something I don't know about {player}",
+            "tell me an interesting fact about {player}",
+            "give me an interesting fact about {player}",
+            "tell me about {player}",
+            "who is {player}",
+            "tell me something about {player}",
+            "{player}",
+            "tell me something I don't know about FIFA",
+            "give me some information about FIFA",
+            "tell me something interesting abut FIFA",
+            "tell me a fact related to FIFA",
+            "tell me something about FIFA",
+            "tell me something interesting",
+            "tell me something I don't know",
+            "give me a fact",
+            "tell me a fact",
+            "give a fact",
+            "tell a fact",
+            "a fact",
+            "fact",
+            "surprise me"
+          ]
+        },
+        {
+          "name": "MatchScoreIntent",
+          "slots": [
+            {
+              "name": "first_team",
+              "type": "teamName"
+            },
+            {
+              "name": "second_team",
+              "type": "teamName"
+            }
+          ],
+          "samples": [
+            "{first_team} and {second_team}",
+            "{first_team} versus {second_team}",
+            "{first_team} vs {second_team}",
+            "{first_team} {second_team}",
+            "{first_team}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Lionel Messi",
+                "synonyms": [
+                  "Messi"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Cristiano Ronaldo",
+                "synonyms": [
+                  "Ronaldo"
+                ]
+              }
+            }
+          ],
+          "name": "playerName"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Borussia Dortmund",
+                "synonyms": [
+                  "Borussia",
+                  "Dortmund"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Roma",
+                "synonyms": [
+                  "A.S. Roma"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "A.C. Milan"
+              }
+            },
+            {
+              "name": {
+                "value": "Tottenham Hotspur",
+                "synonyms": [
+                  "Tottenham Hotspur F.C.",
+                  "Tottenham",
+                  "Spurs"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sevilla",
+                "synonyms": [
+                  "Sevilla FC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Arsenal",
+                "synonyms": [
+                  "Arsenal F.C."
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Chelsea",
+                "synonyms": [
+                  "Chelsea F.C."
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Liverpool",
+                "synonyms": [
+                  "Liverpool F.C."
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Atlético Madrid",
+                "synonyms": [
+                  "Atlético"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Manchester City",
+                "synonyms": [
+                  "Manchester City F.C.",
+                  "City"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Manchester United",
+                "synonyms": [
+                  "Manchester United F.C.",
+                  "United"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Juventus",
+                "synonyms": [
+                  "Juve"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "PSG",
+                "synonyms": [
+                  "Paris Saint-Germain F.C.",
+                  "Paris Saint-Germain"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bayern Munich",
+                "synonyms": [
+                  "FC Bayern Munich",
+                  "Bayern"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Barcelona",
+                "synonyms": [
+                  "Barça",
+                  "Barca"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Real Madrid",
+                "synonyms": [
+                  "Real Madrid C.F.",
+                  "Madrid"
+                ]
+              }
+            }
+          ],
+          "name": "teamName"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Serie A"
+              }
+            },
+            {
+              "name": {
+                "value": "Ligue 1",
+                "synonyms": [
+                  "France Ligue 1"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bundesliga"
+              }
+            },
+            {
+              "name": {
+                "value": "Premier League"
+              }
+            },
+            {
+              "name": {
+                "value": "La Liga",
+                "synonyms": [
+                  "La Liga Santander"
+                ]
+              }
+            }
+          ],
+          "name": "leagueName"
+        }
+      ]
+    }
+  }
+}

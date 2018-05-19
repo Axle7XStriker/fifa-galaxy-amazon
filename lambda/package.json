@@ -1,0 +1,10 @@
+{
+  "name": "fifa-galaxy-endpoint",
+  "description": "This is the endpoint logic for FIFA Galaxy (Alexa Skill)",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "ask-sdk": "^2.0.5",
+    "ask-sdk-v1adapter": "^2.0.5"
+  }
+}
