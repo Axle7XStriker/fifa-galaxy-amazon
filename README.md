@@ -5,7 +5,7 @@ FIFA Galaxy, is an Amazon Alexa application normally called a skill on Amazon Al
 See the developer guide and release notes at [https://developer.amazon.com/docs/](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html) for more details.
 
 ### Steps
-Click [here](./instructions/1-voice-user-interface.md) for steps to build the FIFA Galaxy Skill for Amazon Alexa.
+Click [here](./instructions/1-voice-user-interface.md) for steps to build the FIFA Galaxy Skill for Amazon Alexa, Or click [here](./instructions/7-cli.md) for instructions using the ASK CLI (command line interface)..
 
 ## Contents
 ### Leagues

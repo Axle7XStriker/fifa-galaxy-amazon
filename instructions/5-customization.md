@@ -9,7 +9,7 @@ At this point, you should have a working copy of the FIFA Galaxy skill.  In orde
 
 1. **New data.** You can add more facts about the players already listed or add data about new players, teams or leagues.
 
-    1. **Open a copy of facts.js.** If you haven't already downloaded the code for this project, [you can find a copy of facts.js here on GitHub](https://github.com/alexa/skill-sample-nodejs-fact/blob/en-US/lambda/custom/index.js).  You can use a simple, lightweight code editor like [Atom](http://atom.io), [Sublime Text](http://sublimetext.com), or [VSCode](http://code.visualstudio.com), but you also have the option to edit the code directly in your Lambda function.
+    1. **Open a copy of facts.js.** If you haven't already downloaded the code for this project, [you can find a copy of facts.js here on GitHub](https://github.com/Axle7XStriker/fifa-galaxy-amazon/blob/master/lambda/facts.js).  You can use a simple, lightweight code editor like [Atom](http://atom.io), [Sublime Text](http://sublimetext.com), or [VSCode](http://code.visualstudio.com), but you also have the option to edit the code directly in your Lambda function.
 
     2. **Search for the player, team or league you want to add data for.**  This is the data for the FIFA Galaxy skill.  You can expand it by adding more data about existing/new players, teams or leagues.
 
@@ -19,7 +19,7 @@ At this point, you should have a working copy of the FIFA Galaxy skill.  In orde
 
 2. **New sentences to respond to your users.** There are several sentences and responses that you will want to customize for your skill.
 
-    1.  **Go back to your copy of [index.js](https://github.com/alexa/skill-sample-nodejs-fact/blob/en-US/lambda/custom/index.js).**
+    1.  **Go back to your copy of [index.js](https://github.com/Axle7XStriker/fifa-galaxy-amazon/blob/master/lambda/index.js).**
 
     2.  **Look for the comment "TODO: The items below this comment need your attention."** This is the beginning of the section where you need to customize several text strings for your skill.
 
