@@ -31,6 +31,12 @@ const HELP_REPROMPT = "What can I help you with?";
 const FALLBACK_MESSAGE = "The FIFA World can't help you with that.  It can help you discover facts about space if you say tell me a space fact. What can I help you with?";
 const FALLBACK_REPROMPT = "What can I help you with?";
 const STOP_MESSAGE = "Goodbye!";
+const REPROMPT = [
+    "What can I help you with?", 
+    "Do you want to know something else?", 
+    "What else can I help you with?", 
+    "Anything else, you want to know?"
+]
 
 //=========================================================================================================================================
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
@@ -59,7 +65,8 @@ const LaunchRequestHandler = {
     handle: function(handler_input) {
         const speech_output = "Hi! Welcome to FIFA Galaxy! What can I do for you?";
         return handler_input.responseBuilder.speak(speech_output)
-                                           .getResponse();
+                                            .reprompt(speech_output)
+                                            .getResponse();
     },
 };
 
@@ -89,27 +96,31 @@ const FifaFactsIntentHandler = {
             fact = random(PLAYERS[player]['facts']);
             speech_output = PLAYERS[player]['fact_prefix'] + "\n" + fact;
             return handler_input.responseBuilder.speak(speech_output)
-                                               .withStandardCard(player, fact, PLAYERS[player]['image_url'])
-                                               .getResponse();
+                                                .withStandardCard(player, fact, PLAYERS[player]['image_url'])
+                                                .reprompt(random(REPROMPT))
+                                                .getResponse();
         }
         else if (team) {
             fact = random(TEAMS[team]['facts']);
             speech_output = TEAMS[team]['fact_prefix'] + "\n" + fact;
             return handler_input.responseBuilder.speak(speech_output)
-                                               .withStandardCard(team, fact, TEAMS[team]['image_url'])
-                                               .getResponse();
+                                                .withStandardCard(team, fact, TEAMS[team]['image_url'])
+                                                .reprompt(random(REPROMPT))
+                                                .getResponse();
         }
         else if (league) {
             fact = random(LEAGUES[league]['facts']);
             speech_output = LEAGUES[league]['fact_prefix'] + "\n" + fact;
             return handler_input.responseBuilder.speak(speech_output)
-                                               .withStandardCard(league, fact, LEAGUES[league]['image_url'])
-                                               .getResponse();
+                                                .withStandardCard(league, fact, LEAGUES[league]['image_url'])
+                                                .reprompt(random(REPROMPT))
+                                                .getResponse();
         }
         else {
             speech_output = "Sorry! I don't know any fact related to FIFA";
             return handler_input.responseBuilder.speak(speech_output)
-                                               .getResponse();
+                                                .reprompt(random(REPROMPT))
+                                                .getResponse();
         }
     },
 };
@@ -128,9 +139,63 @@ const MatchScoreIntentHandler = {
     },
     handle: function(handler_input) {
         console.log('MatchScoreIntent');
-        var speech_output;
         var first_team = isSlotValid(handler_input.requestEnvelope.request, 'first_team');
         var second_team = isSlotValid(handler_input.requestEnvelope.request, 'second_team');
+        // Check if a single team or a pair of team is given 
+        if (first_team) {
+            return getPreviousUpcomingTeamFixtures(first_team, second_team).then((fixtures) => {
+                var previous_fixture = fixtures['previous_fixture'];
+                var upcoming_fixture = fixtures['upcoming_fixture'];
+                var previous_fixture_date = new Date(previous_fixture['date']);
+                var upcoming_fixture_date = new Date(upcoming_fixture['date']);
+
+                /* List Select to display fixtures */
+/*
+                conv.ask(new List({
+                    items: {
+                        'previous_match': {
+                            title: previous_fixture['homeTeamName'] + " " + previous_fixture['result']['goalsHomeTeam'] + "  ⚽  " + 
+                                previous_fixture['result']['goalsAwayTeam'] + " " + previous_fixture['awayTeamName'],
+                            description: previous_fixture_date.toLocaleString(undefined, {
+                                weekday: 'long', 
+                                year: 'numeric', 
+                                month: 'long', 
+                                day: 'numeric', 
+                            }),
+                            image: new Image({
+                                url: getLeagueImageUrl(previous_fixture['homeTeamName'], previous_fixture['awayTeamName'], conv.data.LEAGUES),
+                                alt:  previous_fixture['homeTeamName'] + " VS " + previous_fixture['awayTeamName'],
+                            }),
+                        },
+                        'upcoming_match': {
+                            title: upcoming_fixture['homeTeamName'] + " V/S " + upcoming_fixture['awayTeamName'],
+                            description: upcoming_fixture_date.toLocaleString(undefined, {
+                                weekday: 'long', 
+                                year: 'numeric', 
+                                month: 'long', 
+                                day: 'numeric', 
+                                hour: 'numeric', 
+                                minute: 'numeric', 
+                                hour12: true, 
+                            }),
+                            image: new Image({
+                                url: getLeagueImageUrl(upcoming_fixture['homeTeamName'], upcoming_fixture['awayTeamName'], conv.data.LEAGUES),
+                                alt:  previous_fixture['homeTeamName'] + " VS " + previous_fixture['awayTeamName'],
+                            }),
+                        },
+                    },
+                }));
+*/
+                return handler_input.responseBuilder.speak(jsonToSpeechText(fixtures, first_team, second_team))
+                                                    .getResponse();
+            }).catch((error) => {
+                console.log(error);
+                return handler_input.responseBuilder.speak("I am not able to connect to the servers at the moment. Please come back later after some time to get the latest updates on your favourite teams.");
+            });
+        }
+        else {
+            return handler_input.responseBuilder.speak("Sorry! I didn't get that. Can you say it again?");
+        }
     },
 };
 

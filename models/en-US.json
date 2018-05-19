@@ -92,17 +92,208 @@
           "values": [
             {
               "name": {
-                "value": "Lionel Messi",
+                "value": "Cristiano Ronaldo",
                 "synonyms": [
-                  "Messi"
+                  "Cristiano Ronaldo",
+                  "Ronaldo",
+                  "Cristiano",
+                  "Cristiano Ronaldo dos Santos Aveiro"
                 ]
               }
             },
             {
               "name": {
-                "value": "Cristiano Ronaldo",
+                "value": "Lionel Messi",
                 "synonyms": [
-                  "Ronaldo"
+                  "Lionel Messi",
+                  "Lionel",
+                  "Messi",
+                  "Lionel Andrés Messi Cuccittini"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Neymar",
+                "synonyms": [
+                  "Neymar",
+                  "Neymar da Silva Santos Júnior"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Gareth Bale",
+                "synonyms": [
+                  "Gareth Bale",
+                  "Gareth",
+                  "Bale",
+                  "Gareth Frank Bale"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Luis Suárez",
+                "synonyms": [
+                  "Luis Suárez",
+                  "Suárez",
+                  "Luis Alberto Suárez Díaz",
+                  "Luis Suarez",
+                  "Suarez"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Karim Benzema",
+                "synonyms": [
+                  "Karim Benzema",
+                  "Benzema",
+                  "Karim Mostafa Benzema"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sergio Ramos",
+                "synonyms": [
+                  "Sergio Ramos",
+                  "Ramos",
+                  "Sergio Ramos García"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Andrés Iniesta",
+                "synonyms": [
+                  "Andrés Iniesta",
+                  "Iniesta",
+                  "Andrés Iniesta Luján"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Zinedine Zidane",
+                "synonyms": [
+                  "Zinedine Zidane",
+                  "Zidane",
+                  "Zinedine Yazid Zidane"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Ronaldinho",
+                "synonyms": [
+                  "Ronaldinho",
+                  "Ronaldo de Assis Moreira"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Marcelo",
+                "synonyms": [
+                  "Marcelo",
+                  "Marcelo Vieira da Silva Júnior"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Paulo Dybala",
+                "synonyms": [
+                  "Paulo Dybala",
+                  "Dybala",
+                  "Paulo Bruno Exequiel Dybala"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Zlatan Ibrahimović",
+                "synonyms": [
+                  "Zlatan Ibrahimović",
+                  "Zlatan",
+                  "Ibrahimović"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Keylor Navas",
+                "synonyms": [
+                  "Keylor Navas",
+                  "Navas",
+                  "Keylor Antonio Navas Gamboa"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Marco Asensio",
+                "synonyms": [
+                  "Marco Asensio",
+                  "Asensio",
+                  "Marco Asensio Willemsen"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Isco",
+                "synonyms": [
+                  "Isco",
+                  "Francisco Román Alarcón Suárez"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Luka Modrić",
+                "synonyms": [
+                  "Luka Modrić",
+                  "Modrić"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Toni Kroos",
+                "synonyms": [
+                  "Toni Kroos",
+                  "Kroos"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Casemiro",
+                "synonyms": [
+                  "Casemiro",
+                  "Carlos Henrique Casimiro"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Raphaël Varane",
+                "synonyms": [
+                  "Raphaël Varane",
+                  "Varane",
+                  "Raphaël Xavier Varane"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Mateo Kovačić",
+                "synonyms": [
+                  "Mateo Kovačić",
+                  "Kovačić"
                 ]
               }
             }
@@ -113,41 +304,32 @@
           "values": [
             {
               "name": {
-                "value": "Borussia Dortmund",
+                "value": "AC Milan",
                 "synonyms": [
-                  "Borussia",
-                  "Dortmund"
+                  "A.C. Milan",
+                  "Milan",
+                  "ACM",
+                  "AC Milan"
                 ]
               }
             },
             {
               "name": {
-                "value": "Roma",
+                "value": "Amiens",
                 "synonyms": [
-                  "A.S. Roma"
+                  "Amiens",
+                  "Amiens SC",
+                  "ASC"
                 ]
               }
             },
             {
               "name": {
-                "value": "A.C. Milan"
-              }
-            },
-            {
-              "name": {
-                "value": "Tottenham Hotspur",
+                "value": "Angers",
                 "synonyms": [
-                  "Tottenham Hotspur F.C.",
-                  "Tottenham",
-                  "Spurs"
-                ]
-              }
-            },
-            {
-              "name": {
-                "value": "Sevilla",
-                "synonyms": [
-                  "Sevilla FC"
+                  "Angers",
+                  "Angers SCO",
+                  "SCO"
                 ]
               }
             },
@@ -155,23 +337,19 @@
               "name": {
                 "value": "Arsenal",
                 "synonyms": [
-                  "Arsenal F.C."
+                  "Arsenal",
+                  "Arsenal F.C.",
+                  "AFC"
                 ]
               }
             },
             {
               "name": {
-                "value": "Chelsea",
+                "value": "Atalanta",
                 "synonyms": [
-                  "Chelsea F.C."
-                ]
-              }
-            },
-            {
-              "name": {
-                "value": "Liverpool",
-                "synonyms": [
-                  "Liverpool F.C."
+                  "Atalanta",
+                  "Atalanta BC",
+                  "ATA"
                 ]
               }
             },
@@ -179,51 +357,22 @@
               "name": {
                 "value": "Atlético Madrid",
                 "synonyms": [
-                  "Atlético"
+                  "Atlético Madrid",
+                  "Atlético",
+                  "Club Atlético de Madrid",
+                  "ATM",
+                  "Atletico",
+                  "Atletico Madrid"
                 ]
               }
             },
             {
               "name": {
-                "value": "Manchester City",
+                "value": "Augsburg",
                 "synonyms": [
-                  "Manchester City F.C.",
-                  "City"
-                ]
-              }
-            },
-            {
-              "name": {
-                "value": "Manchester United",
-                "synonyms": [
-                  "Manchester United F.C.",
-                  "United"
-                ]
-              }
-            },
-            {
-              "name": {
-                "value": "Juventus",
-                "synonyms": [
-                  "Juve"
-                ]
-              }
-            },
-            {
-              "name": {
-                "value": "PSG",
-                "synonyms": [
-                  "Paris Saint-Germain F.C.",
-                  "Paris Saint-Germain"
-                ]
-              }
-            },
-            {
-              "name": {
-                "value": "Bayern Munich",
-                "synonyms": [
-                  "FC Bayern Munich",
-                  "Bayern"
+                  "Augsburg",
+                  "FC Augsburg",
+                  "FCA"
                 ]
               }
             },
@@ -231,8 +380,680 @@
               "name": {
                 "value": "Barcelona",
                 "synonyms": [
+                  "Barcelona",
+                  "Barca",
                   "Barça",
-                  "Barca"
+                  "FC Barcelona",
+                  "FCB"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bayern Munich",
+                "synonyms": [
+                  "Bayern Munich",
+                  "Bayern",
+                  "FC Bayern Munich",
+                  "FC Bayern München",
+                  "BAY"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Benevento",
+                "synonyms": [
+                  "Benevento",
+                  "Benevento Calcio",
+                  "BEN"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bilbao",
+                "synonyms": [
+                  "Bilbao",
+                  "Athletic Club",
+                  "Athletic Bilbao",
+                  "Athletic",
+                  "ATH",
+                  "BIL"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bologna",
+                "synonyms": [
+                  "Bologna",
+                  "Bologna FC",
+                  "BOL"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bordeaux",
+                "synonyms": [
+                  "Bordeaux",
+                  "FC Girondins de Bordeaux",
+                  "GdB"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Borussia Dortmund",
+                "synonyms": [
+                  "Borussia Dortmund",
+                  "Dortmund",
+                  "Borussia",
+                  "BVB"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bournemouth",
+                "synonyms": [
+                  "Bournemouth",
+                  "AFC Bournemouth",
+                  "AFCB"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Bremen",
+                "synonyms": [
+                  "Bremen",
+                  "Werder Bremen",
+                  "SVW"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Brighton",
+                "synonyms": [
+                  "Brighton",
+                  "Brighton & Hove Albion",
+                  "BHAFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Burnley",
+                "synonyms": [
+                  "Burnley",
+                  "Burnley FC",
+                  "BFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Caen",
+                "synonyms": [
+                  "Caen",
+                  "SM Caen",
+                  "SMC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Cagliari",
+                "synonyms": [
+                  "Cagliari",
+                  "Cagliari Calcio",
+                  "t",
+                  "CAG"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Celta Vigo",
+                "synonyms": [
+                  "Celta Vigo",
+                  "RC Celta de Vigo",
+                  "CEL",
+                  "VIG"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Chelsea",
+                "synonyms": [
+                  "Chelsea",
+                  "Chelsea F.C.",
+                  "CFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Chievo Verona",
+                "synonyms": [
+                  "Chievo",
+                  "AC Chievo Verona",
+                  "CHI"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Crotone",
+                "synonyms": [
+                  "Crotone",
+                  "FC Crotone",
+                  "CRO"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Crystal Palace",
+                "synonyms": [
+                  "Crystal Palace",
+                  "Crystal",
+                  "Crystal Palace FC",
+                  "CRY"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Deportivo La Coruna",
+                "synonyms": [
+                  "Deportivo",
+                  "RC Deportivo La Coruna",
+                  "LAC",
+                  "Deportivo La Coruna"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Deportivo Alavés",
+                "synonyms": [
+                  "Deportivo Alavés",
+                  "Alavés",
+                  "ALA"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Dijon",
+                "synonyms": [
+                  "Dijon",
+                  "Dijon FCO",
+                  "DFCO"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Eibar",
+                "synonyms": [
+                  "Eibar",
+                  "SD Eibar",
+                  "EIB"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Espanyol",
+                "synonyms": [
+                  "Espanyol",
+                  "RCD Espanyol",
+                  "ESP"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Everton",
+                "synonyms": [
+                  "Everton",
+                  "Everton FC",
+                  "EFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Ferrara",
+                "synonyms": [
+                  "Ferrara",
+                  "SPAL Ferrara",
+                  "SPA"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Fiorentina",
+                "synonyms": [
+                  "Fiorentina",
+                  "ACF Fiorentina",
+                  "FIO"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Frankfurt",
+                "synonyms": [
+                  "Frankfurt",
+                  "Eintracht Frankfurt",
+                  "SGE"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Freiburg",
+                "synonyms": [
+                  "Freiburg",
+                  "SC Freiburg",
+                  "SCF"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Genoa",
+                "synonyms": [
+                  "Genoa",
+                  "Genoa CFC",
+                  "GEN"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Getafe",
+                "synonyms": [
+                  "Getafe",
+                  "Getafe CF",
+                  "FCG"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Girona",
+                "synonyms": [
+                  "Girona",
+                  "Girona FC",
+                  "GFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Gladbach",
+                "synonyms": [
+                  "Gladbach",
+                  "Borussia Mönchengladbach",
+                  "BMG"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Guingamp",
+                "synonyms": [
+                  "Guingamp",
+                  "EA Guingamp",
+                  "EAG"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Hamburger SV",
+                "synonyms": [
+                  "Hamburger SV",
+                  "Hamburger",
+                  "HSV"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Hannover",
+                "synonyms": [
+                  "Hannover",
+                  "Hannover 96",
+                  "H96"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Hellas Verona",
+                "synonyms": [
+                  "Verona",
+                  "H. Verona",
+                  "Hellas Verona FC",
+                  "Hellas"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Hertha",
+                "synonyms": [
+                  "Hertha",
+                  "Hertha BSC",
+                  "BSC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Hoffenheim",
+                "synonyms": [
+                  "Hoffenheim",
+                  "TSG 1899 Hoffenheim",
+                  "TSG"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Huddersfield",
+                "synonyms": [
+                  "Huddersfield",
+                  "Huddersfield Town",
+                  "HTAFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Inter Milan",
+                "synonyms": [
+                  "Inter",
+                  "Inter Milan",
+                  "FC Internazionale Milano",
+                  "INT"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Juventus",
+                "synonyms": [
+                  "Juventus",
+                  "Juve",
+                  "JUV",
+                  "Juventus Turin"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Köln",
+                "synonyms": [
+                  "Köln",
+                  "FC Köln",
+                  "EFFZEH"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Las Palmas",
+                "synonyms": [
+                  "Las Palmas",
+                  "UD Las Palmas",
+                  "LPA"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Lazio",
+                "synonyms": [
+                  "Lazio",
+                  "SS Lazio",
+                  "LAZ"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Leganes",
+                "synonyms": [
+                  "Leganes",
+                  "CD Leganes",
+                  "LEG"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Leicester City",
+                "synonyms": [
+                  "Leicester City",
+                  "Foxes",
+                  "Leicester City FC",
+                  "LCFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Leipzig",
+                "synonyms": [
+                  "Leipzig",
+                  "Red Bull Leipzig",
+                  "RBL"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Levante",
+                "synonyms": [
+                  "Levante",
+                  "Levante UD",
+                  "LUD"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Leverkusen",
+                "synonyms": [
+                  "Leverkusen",
+                  "Bayer Leverkusen",
+                  "B04"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Lille",
+                "synonyms": [
+                  "Lille",
+                  "OSC Lille",
+                  "LOSC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Liverpool",
+                "synonyms": [
+                  "Liverpool",
+                  "Liverpool F.C.",
+                  "LFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Lyon",
+                "synonyms": [
+                  "Lyon",
+                  "Olympique Lyonnais",
+                  "OLY"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Mainz",
+                "synonyms": [
+                  "Mainz",
+                  "FSV Mainz 05",
+                  "FSV Mainz",
+                  "M05"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Manchester City",
+                "synonyms": [
+                  "Manchester City",
+                  "City",
+                  "Manchester City F.C.",
+                  "Man City",
+                  "MCFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Manchester United",
+                "synonyms": [
+                  "Manchester United",
+                  "United",
+                  "Manchester United F.C.",
+                  "MUFC",
+                  "Man U"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Marseille",
+                "synonyms": [
+                  "Marseille",
+                  "Olympique de Marseille",
+                  "OM"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Málaga",
+                "synonyms": [
+                  "Málaga",
+                  "Málaga CF",
+                  "MAL"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Metz",
+                "synonyms": [
+                  "Metz",
+                  "FC Metz",
+                  "FCM"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Monaco",
+                "synonyms": [
+                  "Monaco",
+                  "AS Monaco FC",
+                  "ASM"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Montpellier",
+                "synonyms": [
+                  "Montpellier",
+                  "Montpellier Hérault SC",
+                  "MHSC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Nantes",
+                "synonyms": [
+                  "Nantes",
+                  "FC Nantes",
+                  "FCN"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Napoli",
+                "synonyms": [
+                  "Napoli",
+                  "SSC Napoli",
+                  "NAP"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Newcastle",
+                "synonyms": [
+                  "Newcastle",
+                  "Newcastle United FC",
+                  "NUFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Nice",
+                "synonyms": [
+                  "Nice",
+                  "OGC Nice",
+                  "NIC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "PSG",
+                "synonyms": [
+                  "PSG",
+                  "Paris Saint-Germain",
+                  "Paris Saint-Germain F.C."
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Real Betis",
+                "synonyms": [
+                  "Real Betis",
+                  "Betis",
+                  "BET"
                 ]
               }
             },
@@ -240,8 +1061,257 @@
               "name": {
                 "value": "Real Madrid",
                 "synonyms": [
+                  "Real Madrid",
+                  "Madrid",
                   "Real Madrid C.F.",
-                  "Madrid"
+                  "MAD",
+                  "RM"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Real Sociedad",
+                "synonyms": [
+                  "Real Sociedad",
+                  "Real Sociedad de Fútbol",
+                  "RSS"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Rennes",
+                "synonyms": [
+                  "Rennes",
+                  "Stade Rennais FC",
+                  "Rennais",
+                  "REN"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Roma",
+                "synonyms": [
+                  "Roma",
+                  "A.S. Roma",
+                  "ROM"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sampdoria",
+                "synonyms": [
+                  "Sampdoria",
+                  "UC Sampdoria",
+                  "SAM"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sassuolo",
+                "synonyms": [
+                  "Sassuolo",
+                  "US Sassuolo Calcio",
+                  "SAS"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Schalke",
+                "synonyms": [
+                  "Schalke",
+                  "FC Schalke 04",
+                  "S04"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Sevilla",
+                "synonyms": [
+                  "Sevilla",
+                  "Sevilla FC",
+                  "SEV"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Southampton",
+                "synonyms": [
+                  "Southampton",
+                  "Southampton FC",
+                  "SFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Stoke City",
+                "synonyms": [
+                  "Stoke City",
+                  "Stoke",
+                  "Stoke City FC",
+                  "SCFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Strasbourg",
+                "synonyms": [
+                  "Strasbourg",
+                  "RC Strasbourg Alsace",
+                  "RCSA"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Stuttgart",
+                "synonyms": [
+                  "Stuttgart",
+                  "VfB Stuttgart",
+                  "VFB"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "St. Etienne",
+                "synonyms": [
+                  "St. Etienne",
+                  "AS Saint-Étienne",
+                  "ETI",
+                  "ASSE"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Swansea",
+                "synonyms": [
+                  "Swansea",
+                  "Swans",
+                  "Swansea City FC",
+                  "SWA"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Torino",
+                "synonyms": [
+                  "Torino",
+                  "Torino FC",
+                  "TOR"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Tottenham Hotspur",
+                "synonyms": [
+                  "Tottenham Hotspur",
+                  "Spurs",
+                  "Tottenham",
+                  "Tottenham Hotspur F.C.",
+                  "THFC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Toulouse",
+                "synonyms": [
+                  "Toulouse",
+                  "Toulouse FC",
+                  "TOU"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Troyes",
+                "synonyms": [
+                  "Troyes",
+                  "ES Troyes AC",
+                  "ESTAC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Udinese",
+                "synonyms": [
+                  "Udinese",
+                  "Udinese Calcio",
+                  "UDI"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Valencia",
+                "synonyms": [
+                  "Valencia",
+                  "Valencia CF",
+                  "VAL"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Villarreal",
+                "synonyms": [
+                  "VCF",
+                  "Villarreal",
+                  "Villarreal CF"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Watford",
+                "synonyms": [
+                  "Watford",
+                  "Watford FC",
+                  "WAT"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "West Bromwich",
+                "synonyms": [
+                  "West Bromwich Albion FC",
+                  "WBA",
+                  "West Bromwich"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "West Ham",
+                "synonyms": [
+                  "West Ham",
+                  "West Ham United FC",
+                  "WHU"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Wolfsburg",
+                "synonyms": [
+                  "Wolfsburg",
+                  "VfL Wolfsburg",
+                  "WOB"
                 ]
               }
             }
@@ -252,32 +1322,165 @@
           "values": [
             {
               "name": {
-                "value": "Serie A"
-              }
-            },
-            {
-              "name": {
-                "value": "Ligue 1",
+                "value": "Australian A-League",
                 "synonyms": [
-                  "France Ligue 1"
+                  "Australian A-League",
+                  "AAL",
+                  "Australian League"
                 ]
               }
             },
             {
               "name": {
-                "value": "Bundesliga"
+                "value": "Bundesliga 1",
+                "synonyms": [
+                  "Bundesliga",
+                  "Bundesliga 1",
+                  "BL1"
+                ]
               }
             },
             {
               "name": {
-                "value": "Premier League"
+                "value": "Bundesliga 2",
+                "synonyms": [
+                  "Bundesliga 2",
+                  "BL2"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Campeonato Brasileiro da Série A",
+                "synonyms": [
+                  "Campeonato Brasileiro da Série A",
+                  "BSA"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Champions League",
+                "synonyms": [
+                  "Champions League",
+                  "CL"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "DFB-Pokal",
+                "synonyms": [
+                  "DFB-Pokal",
+                  "German Cup",
+                  "DFB"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "EFL Championship",
+                "synonyms": [
+                  "EFL Championship",
+                  "Championship",
+                  "ELC"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Eredivisie",
+                "synonyms": [
+                  "Eredivisie",
+                  "DED"
+                ]
               }
             },
             {
               "name": {
                 "value": "La Liga",
                 "synonyms": [
-                  "La Liga Santander"
+                  "La Liga",
+                  "La Liga Santander",
+                  "Primera Division",
+                  "PD"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "League one",
+                "synonyms": [
+                  "League one",
+                  "EFL League One",
+                  "EL1"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "League Two",
+                "synonyms": [
+                  "League Two",
+                  "EFL League Two",
+                  "EL2"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Ligue 1",
+                "synonyms": [
+                  "Ligue 1",
+                  "France Ligue 1",
+                  "FL1"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Ligue 2",
+                "synonyms": [
+                  "Ligue 2",
+                  "France Ligue 2",
+                  "FL2"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Premier League",
+                "synonyms": [
+                  "Premier League",
+                  "PL"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Primeira Liga",
+                "synonyms": [
+                  "Primeira Liga",
+                  "Liga NOS",
+                  "PPL"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Serie A",
+                "synonyms": [
+                  "Serie A",
+                  "SA"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Serie B",
+                "synonyms": [
+                  "Serie B",
+                  "SB"
                 ]
               }
             }
