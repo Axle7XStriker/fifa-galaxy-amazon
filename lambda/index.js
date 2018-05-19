@@ -187,14 +187,19 @@ const MatchScoreIntentHandler = {
                 }));
 */
                 return handler_input.responseBuilder.speak(jsonToSpeechText(fixtures, first_team, second_team))
+                                                    .reprompt(random(REPROMPT))
                                                     .getResponse();
             }).catch((error) => {
                 console.log(error);
-                return handler_input.responseBuilder.speak("I am not able to connect to the servers at the moment. Please come back later after some time to get the latest updates on your favourite teams.");
+                return handler_input.responseBuilder.speak("I am not able to connect to the servers at the moment. Please come back later after some time to get the latest updates on your favourite teams.")
+                                                    .reprompt(random(REPROMPT))
+                                                    .getResponse();
             });
         }
         else {
-            return handler_input.responseBuilder.speak("Sorry! I didn't get that. Can you say it again?");
+            return handler_input.responseBuilder.speak("Sorry! I didn't get that. Can you say it again?")
+                                                .reprompt(random(REPROMPT))
+                                                .getResponse();
         }
     },
 };
@@ -205,10 +210,9 @@ const HelpIntentHandler = {
             handler_input.requestEnvelope.request.intent.name === 'Amazon.HelpIntent';
     },
     handle: function(handler_input) {
-        const speech_output = HELP_MESSAGE;
-        const reprompt = HELP_REPROMPT;
-        return handler_input.responseBuilder.speak(speech_output)
-                                            .listen(reprompt);
+        return handler_input.responseBuilder.speak(HELP_MESSAGE)
+                                            .reprompt(HELP_REPROMPT)
+                                            .getResponse();
     },
 };
 
@@ -218,7 +222,8 @@ const CancelIntentHandler = {
             handler_input.requestEnvelope.request.intent.name === 'Amazon.CancelIntent';
     },
     handle: function(handler_input) {
-        return this.handler_input.responseBuilder.speak(STOP_MESSAGE);
+        return handler_input.responseBuilder.speak(STOP_MESSAGE)
+                                            .getResponse();
     },
 };
 
@@ -228,12 +233,13 @@ const StopIntentHandler = {
             handler_input.requestEnvelope.request.intent.name === 'Amazon.StopIntent';
     },
     handle: function(handler_input) {
-        return this.handler_input.responseBuilder.speak(STOP_MESSAGE);
+        return handler_input.responseBuilder.speak(STOP_MESSAGE)
+                                            .getResponse();
     },
 };
 
 const SessionEndedRequestHandler = {
-    //handler for the Session Ended Request
+    // handler for the Session Ended Request 
     canHandle: function(handler_input) {
         return handler_input.requestEnvelope.request.type === 'SessionEndedRequest';
     },
@@ -243,6 +249,7 @@ const SessionEndedRequestHandler = {
 };
 
 const UnhandledHandler = {
+    // handler for the Unhandled Request 
     canHandle: function(handler_input) {
         
     },

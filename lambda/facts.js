@@ -32,7 +32,7 @@ exports.Players = [
       "Messi holds the world record for most goals in one year.",
     ],
     "fact_prefix": "Okay, here's a fact about Lionel Messi.",
-    "image_url": "http://cdn2.theweek.co.uk/sites/theweek/files/styles/16x8_465/public/2018/03/lionel_messi_release_clause_barcelona_transfer_news_getty_images_927115406.jpg",
+    "image_url": "https://givemesport.azureedge.net/images/18/03/02/33d764d6a5a79db751929991947771eb/960.jpg",
   },
   {
     "name": "Cristiano Ronaldo",
