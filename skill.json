@@ -3,18 +3,178 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "name": "FIFA Galaxy"
+          "summary": "Know everything there is to know about football world through FIFA Galaxy",
+          "examplePhrases": [
+            "Alexa, Open FIFA Galaxy",
+            "Alexa, Ask FIFA Galaxy to tell me something about Messi",
+            "Alexa, Ask FIFA Galaxy about Real Madrid"
+          ],
+          "keywords": [
+            "sports",
+            "football",
+            "facts",
+            "score-keeping",
+            "knowledge",
+            "fifa",
+            "fun",
+            "soccer",
+            "scores",
+            "fixtures",
+            "general-knowledge",
+            "match-schedules"
+          ],
+          "name": "FIFA Galaxy",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2f0a/a7b4c06208b1453289c1abcea2c41676/APP_ICON?versionId=pl5mQaC.U32z96LvfK4HmaFfaPXsabFR&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=YdsWxYKljDyBKhOekvXuNzqxW5E%3D",
+          "description": "FIFA Galaxy lets you know interesting facts about your favorite football star, club, national team and also keeps you updated on the latest happenings in the world of football.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e595/ac8c7263af124c82b331b693dcbb4bf2/APP_ICON_LARGE?versionId=MrvaVyojnbkQzZVvW4p6SNPy.OgYpgWc&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=ItrW89Ykbj7VurBZmDgxTLAo%2BKc%3D"
+        },
+        "en-CA": {
+          "summary": "Know everything there is to know about football world through FIFA Galaxy",
+          "examplePhrases": [
+            "Alexa, Open FIFA Galaxy",
+            "Alexa, Ask FIFA Galaxy to tell me something about Messi",
+            "Alexa, Ask FIFA Galaxy about Real Madrid"
+          ],
+          "keywords": [
+            "sports",
+            "football",
+            "facts",
+            "score-keeping",
+            "knowledge",
+            "fifa",
+            "fun",
+            "soccer",
+            "scores",
+            "fixtures",
+            "general-knowledge",
+            "match-schedules"
+          ],
+          "name": "FIFA Galaxy",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2f0a/a7b4c06208b1453289c1abcea2c41676/APP_ICON?versionId=pl5mQaC.U32z96LvfK4HmaFfaPXsabFR&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=YdsWxYKljDyBKhOekvXuNzqxW5E%3D",
+          "description": "FIFA Galaxy lets you know interesting facts about your favorite football star, club, national team and also keeps you updated on the latest happenings in the world of football.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e595/ac8c7263af124c82b331b693dcbb4bf2/APP_ICON_LARGE?versionId=MrvaVyojnbkQzZVvW4p6SNPy.OgYpgWc&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=ItrW89Ykbj7VurBZmDgxTLAo%2BKc%3D"
+        },
+        "en-IN": {
+          "summary": "Know everything there is to know about football world through FIFA Galaxy",
+          "examplePhrases": [
+            "Alexa, Open FIFA Galaxy",
+            "Alexa, Ask FIFA Galaxy to tell me something about Messi",
+            "Alexa, Ask FIFA Galaxy about Real Madrid"
+          ],
+          "keywords": [
+            "sports",
+            "football",
+            "facts",
+            "score-keeping",
+            "knowledge",
+            "fifa",
+            "fun",
+            "soccer",
+            "scores",
+            "fixtures",
+            "general-knowledge",
+            "match-schedules"
+          ],
+          "name": "FIFA Galaxy",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2f0a/a7b4c06208b1453289c1abcea2c41676/APP_ICON?versionId=pl5mQaC.U32z96LvfK4HmaFfaPXsabFR&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=YdsWxYKljDyBKhOekvXuNzqxW5E%3D",
+          "description": "FIFA Galaxy lets you know interesting facts about your favorite football star, club, national team and also keeps you updated on the latest happenings in the world of football.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e595/ac8c7263af124c82b331b693dcbb4bf2/APP_ICON_LARGE?versionId=MrvaVyojnbkQzZVvW4p6SNPy.OgYpgWc&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=ItrW89Ykbj7VurBZmDgxTLAo%2BKc%3D"
+        },
+        "en-AU": {
+          "summary": "Know everything there is to know about football world through FIFA Galaxy",
+          "examplePhrases": [
+            "Alexa, Open FIFA Galaxy",
+            "Alexa, Ask FIFA Galaxy to tell me something about Messi",
+            "Alexa, Ask FIFA Galaxy about Real Madrid"
+          ],
+          "keywords": [
+            "sports",
+            "football",
+            "facts",
+            "score-keeping",
+            "knowledge",
+            "fifa",
+            "fun",
+            "soccer",
+            "scores",
+            "fixtures",
+            "general-knowledge",
+            "match-schedules"
+          ],
+          "name": "FIFA Galaxy",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2f0a/a7b4c06208b1453289c1abcea2c41676/APP_ICON?versionId=pl5mQaC.U32z96LvfK4HmaFfaPXsabFR&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=YdsWxYKljDyBKhOekvXuNzqxW5E%3D",
+          "description": "FIFA Galaxy lets you know interesting facts about your favorite football star, club, national team and also keeps you updated on the latest happenings in the world of football.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e595/ac8c7263af124c82b331b693dcbb4bf2/APP_ICON_LARGE?versionId=MrvaVyojnbkQzZVvW4p6SNPy.OgYpgWc&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=ItrW89Ykbj7VurBZmDgxTLAo%2BKc%3D"
+        },
+        "en-GB": {
+          "summary": "Know everything there is to know about football world through FIFA Galaxy",
+          "examplePhrases": [
+            "Alexa, Open FIFA Galaxy",
+            "Alexa, Ask FIFA Galaxy to tell me something about Messi",
+            "Alexa, Ask FIFA Galaxy about Real Madrid"
+          ],
+          "keywords": [
+            "sports",
+            "football",
+            "facts",
+            "score-keeping",
+            "knowledge",
+            "fifa",
+            "fun",
+            "soccer",
+            "scores",
+            "fixtures",
+            "general-knowledge",
+            "match-schedules"
+          ],
+          "name": "FIFA Galaxy",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2f0a/a7b4c06208b1453289c1abcea2c41676/APP_ICON?versionId=pl5mQaC.U32z96LvfK4HmaFfaPXsabFR&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=YdsWxYKljDyBKhOekvXuNzqxW5E%3D",
+          "description": "FIFA Galaxy lets you know interesting facts about your favorite football star, club, national team and also keeps you updated on the latest happenings in the world of football.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e595/ac8c7263af124c82b331b693dcbb4bf2/APP_ICON_LARGE?versionId=MrvaVyojnbkQzZVvW4p6SNPy.OgYpgWc&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1528654703&Signature=ItrW89Ykbj7VurBZmDgxTLAo%2BKc%3D"
         }
-      }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "There is nothing special required to invoke this skill. This skill can simply be invoked by using the invocation name and any utterance mentioned in the specific intent. If a user just launch the skill by using the invocation name, the skill asks for specific action to be taken by the skill in order to complete its task in the form of utterances. The skill tells facts about any player/team/league related to football. It also provides the users with previous and upcoming fixtures of football clubs and national teams. Users can get details of matches of a single team or a pair of teams.",
+      "category": "SCORE_KEEPING",
+      "distributionCountries": []
     },
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/"
+          "sourceDir": "lambda/",
+          "uri": "arn:aws:lambda:us-east-1:459338637171:function:FifaGalaxy"
         },
-        "interfaces": []
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE"
+          }
+        ]
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://docs.google.com/document/d/1ArR5e4Wqs84b9472wQETBYHeArCfufzBaVI-Qw80oSA/edit?usp=sharing"
+        },
+        "en-CA": {
+          "privacyPolicyUrl": "https://docs.google.com/document/d/1ArR5e4Wqs84b9472wQETBYHeArCfufzBaVI-Qw80oSA/edit?usp=sharing"
+        },
+        "en-IN": {
+          "privacyPolicyUrl": "https://docs.google.com/document/d/1ArR5e4Wqs84b9472wQETBYHeArCfufzBaVI-Qw80oSA/edit?usp=sharing"
+        },
+        "en-AU": {
+          "privacyPolicyUrl": "https://docs.google.com/document/d/1ArR5e4Wqs84b9472wQETBYHeArCfufzBaVI-Qw80oSA/edit?usp=sharing"
+        },
+        "en-GB": {
+          "privacyPolicyUrl": "https://docs.google.com/document/d/1ArR5e4Wqs84b9472wQETBYHeArCfufzBaVI-Qw80oSA/edit?usp=sharing"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
   }
 }

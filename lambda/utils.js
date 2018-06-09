@@ -26,7 +26,22 @@ exports.isSlotValid = (request, slot_name) => {
         //we didn't get a value in the slot
         return false;
     }
-}
+};
+
+/**
+ * Checks if the skill is running on a device with a display (show|spot).
+ * Arguments:- 
+ *    handler_input: Object containing the inbound request 
+ * Returns:- true, if the skill is running on a device with a display (show|spot) 
+ */
+exports.supportsDisplay = (handler_input) => {
+  var has_display = handler_input.requestEnvelope.context &&
+                    handler_input.requestEnvelope.context.System &&
+                    handler_input.requestEnvelope.context.System.device &&
+                    handler_input.requestEnvelope.context.System.device.supportedInterfaces &&
+                    handler_input.requestEnvelope.context.System.device.supportedInterfaces.Display
+  return has_display;
+};
 
 /**
  * Get the values of the keys of an object.
