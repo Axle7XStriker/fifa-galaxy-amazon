@@ -426,6 +426,7 @@ const SessionEndedRequestHandler = {
         return handler_input.requestEnvelope.request.type === 'SessionEndedRequest';
     },
     handle: function(handler_input) {
+        console.log("Session ended with reason:", handler_input.requestEnvelope.request.reason);
         return handler_input.responseBuilder.speak(STOP_MESSAGE)
                                             .withShouldEndSession(true)
                                             .getResponse();
